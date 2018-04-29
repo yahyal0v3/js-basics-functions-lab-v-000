@@ -18,5 +18,6 @@ function distanceTravelledInFeet(from, to) {
 }
 
 function calculatesFarePrice(from, to) {
+  const chargedFeet = distanceTravelledInFeet(from, to) - 400
   
 }
