@@ -23,7 +23,7 @@ function calculatesFarePrice(from, to) {
   if (chargedFeet < 2000) {
     price = chargedFeet * 0.02
   } else if (chargedFeet > 2000 && chargedFeet < 2500) {
-    
+    price = 25
   } else {
     price = 'cannot travel that far'
   }
