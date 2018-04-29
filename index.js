@@ -23,7 +23,7 @@ function calculatesFarePrice(from, to) {
   if (chargedFeet <= 400 ) {
     price = 0
   } else if (chargedFeet < 2000) {
-    price = chargedFeet * 0.02
+    price = chargedFeet * 0.02 - 400
   } else if (chargedFeet > 2000 && chargedFeet < 2500) {
     price = 25
   } else {
